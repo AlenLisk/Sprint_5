@@ -7,7 +7,7 @@ class Locators:
     LOCATOR_BUTTON_LOGOUT = ".//main//button[text()='Выход']" # кнопка Выход в Личном кабинете
     LOCATOR_INPUT_REGISTRATION_AUTHORIZATION = ".//form//input" # поля ввода на форме регистрации/авторизации
     LOCATOR_BUTTON_REGISTRATION = ".//form//button[text()='Зарегистрироваться']" # кнопка Зарегистироваться на форме регистрации
-    LOCATOR_CONSTRUCTOR_SECTION = ".//main//div/div" # разделы конструктора
+    LOCATOR_CONSTRUCTOR_SECTION = ".//main/section[1]/div[1]/div" # разделы конструктора
     LOCATOR_INPUT_PROFILE = ".//main//input" # поля ввода в Личном кабинете
     LOCATOR_BUTTON_LOGIN = ".//form//button[text()='Войти']" # кнопка Войти на форме авторизации
     LOCATOR_LABEL_ASSEMBLE_A_BURGER = ".//main//h1[text()='Соберите бургер']" # надпись Соберите на главной странице
@@ -18,3 +18,5 @@ class Locators:
     LOCATOR_SECTION_SAUCES = ".//main//h2[text()='Соусы']" # секция Соусы в конструкторе
     LOCATOR_SECTION_BUNS = ".//main//h2[text()='Булки']" # секция Булки в конструкторе
     LOCATOR_BUTTON_PLACE_AN_ORDER = ".//main//button[text()='Оформить заказ']" # кнопка Оформить заказ на главной странице
+    LOCATOR_STUFFING_CHEESE = ".//main//ul[3]//a[last()]" # последний элемент конструктора
+    LOCATOR_ERROR_USER_ALREADY_EXISTS = ".//main//p[text()='Такой пользователь уже существует']"
